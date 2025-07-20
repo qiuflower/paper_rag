@@ -1,11 +1,11 @@
-# paper_rag
+# paper_rag_Agent
 多智能体学术文献智能问答系统
 
 ## 项目简介
-FusionAgent 是一个多通道混合检索系统，结合了 **向量检索（Dense Retrieval）**、**章节结构检索（Tree-based Retrieval）** 和 **知识图谱检索（KG Retrieval）**，并支持 **Cross-Encoder Reranker** 对候选结果进行重排，以提升检索精度与语义匹配效果。
+paper_rag_Agent 是一个多渠道混合检索系统，结合了 **向量检索（Dense Retrieval）**、**章节结构检索（Tree-based Retrieval）** 和 **知识图谱检索（KG Retrieval）**，并支持 **Cross-Encoder Reranker** 对候选结果进行重排，以提升检索精度与语义匹配效果。
 
 ## 项目亮点
-- **三通道融合**：向量检索 + 结构化章节匹配 + 知识图谱检索，有效提高查询覆盖率。
+- **三渠道融合**：向量检索 + 结构化章节匹配 + 知识图谱检索，有效提高查询覆盖率。
 - **智能重排 (Reranker)**：可选用 `sentence-transformers` 的 Cross-Encoder 模型进行相关性重排。
 - **高性能向量检索**：基于 `FAISS` 实现的高维向量索引和快速相似度计算。
 - **结构化章节搜索**：通过 `TreeAgent` 提取并按文档结构进行匹配。
