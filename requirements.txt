@@ -1,0 +1,5 @@
+mistune
+sentence-transformers
+faiss-cpu
+transformers
+torch
