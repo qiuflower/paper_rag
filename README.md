@@ -1,8 +1,8 @@
-# paper_rag_Agent
+# paper_rag
 多智能体学术文献智能问答系统
 
 ## 项目简介
-paper_rag_Agent 是一个多渠道混合检索系统，结合了 **向量检索（Dense Retrieval）**、**章节结构检索（Tree-based Retrieval）** 和 **知识图谱检索（KG Retrieval）**，并支持 **Cross-Encoder Reranker** 对候选结果进行重排，以提升检索精度与语义匹配效果。
+paper_rag是一个多智能体混合检索系统，结合了 **向量检索（Dense Retrieval）**、**章节结构检索（Tree-based Retrieval）** 和 **知识图谱检索（KG Retrieval）**，并支持 **Cross-Encoder Reranker** 对候选结果进行重排，以提升检索精度与语义匹配效果。
 
 ## 项目亮点
 - **三渠道融合**：向量检索 + 结构化章节匹配 + 知识图谱检索，有效提高查询覆盖率。
