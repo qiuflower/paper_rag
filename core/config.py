@@ -23,8 +23,8 @@ KG_FILE = os.path.join(KG_DIR, "graph.ttl")
 DATA_DIR = "data"
 
 # LLM API config
-LLM_API_URL = "https://yunwu.ai/v1/chat/completions"
-LLM_API_KEY = os.getenv("YUNWU_API_KEY", "sk-UXulx2ibD0BWdwTW6yFbsvtxoXoOOSPk2ZVCyV5dfv29xPhH")  # 通过环境变量注入
+LLM_API_URL = "api url"
+LLM_API_KEY = os.getenv("YUNWU_API_KEY", "your key")  # 通过环境变量注入
 
 # Reranker model
 RERANKER_MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L-6-v2"
